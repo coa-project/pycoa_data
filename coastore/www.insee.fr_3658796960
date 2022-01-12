@@ -1,0 +1,1517 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+
+
+
+
+
+	
+		
+		
+		
+			<title>Populations légales des départements en 2018 &minus; Populations légales 2018 | Insee</title>
+		
+	
+
+
+
+
+
+
+		
+		
+		
+			<meta name="description" content="Recensement de la population" />
+		
+	
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="
+
+
+/static/css/application.css
+">
+<link rel="stylesheet" type="text/css" href="
+
+
+/static/css/featherlight/featherlight.css
+">
+<link rel="stylesheet" type="text/css" href="
+
+
+/static/css/swiper/swiper.min.css
+">
+<link rel="stylesheet" type="text/css" href="
+
+
+/static/css/dateTimePicker/jquery.datetimepicker.css
+"></link>
+<script type="text/javascript">
+	var contextPath="";
+	var langue="fr";
+	var numOnglet="1";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="UTF-8" src="
+
+
+/static/js/svg/graphsvg.js
+"></script>
+
+<script type="text/javascript" charset="UTF-8" src="
+
+
+/static/js/application-lib.min.js
+"></script>
+<!--  -->
+<script type="text/javascript" charset="UTF-8" src="
+
+
+/static/js/application.babel.js
+"></script>
+
+<!--[if lte IE 8]>
+<script type="text/javascript" charset="UTF-8"  src="
+
+
+/static/js/polyfills/css3-mediaqueries.min.js
+"></script>
+<![endif]-->
+<script type="text/javascript">
+var inseeConfig = {
+
+	
+};
+</script>
+
+<script type="text/javascript">
+var features = {
+'rmesSource': 'true',
+};
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<link rel="shortcut icon" href="
+
+
+/static/img/favicon.ico
+">
+
+</head>
+<body>
+	<!-- Lightbox -->
+	<span id="isLightbox" class="hide">false</span>
+
+	<span class="controller-param hidden" id="urlAlternative" aria-hidden="true" ></span>
+	<span class="controller-param hidden" id="urlCible" aria-hidden="true" ></span>
+	<span class="controller-param hidden" id="urlCibleAlternative" aria-hidden="true" ></span>
+
+	
+
+
+	<div id="wait" class="wait-off" ><img src="
+
+
+/static/img/preloader.gif
+" alt="Veuillez-patienter..." /></div>
+	<div id="fond-transparent-body" class="fond-transparent-off"></div>
+	<header class="header"  role="banner">
+		
+
+
+
+
+
+<div id="banniere" class="banniere">
+	<div class="bandeau">
+		<div class="loupe" tabindex="-1">
+			<a href="#" id="afficher-recherche" tabindex="-1">
+				<span class="loupe-span">
+					<br/>
+					<span data-i18n="header.responsive.recherche-loupe" class="style">Recherche</span>
+				</span>
+			</a>
+			<a id="lien-aide-responsive" data-i18n="header.recherche.aide-du-haut-court" href="
+
+
+/fr/information/2411108
+">Aide</a>
+		</div>
+		
+		
+
+
+
+
+
+
+
+
+	
+	
+		<a data-i18n="[title]header.logo.title" href="
+
+
+/fr/accueil
+" title="accueil" id="logo" tabindex="-1" >
+			<img class="logo" src="/static/img/logo_com_externe_semi_bold.png" />
+			<span class="hidden" id="lien-logo">/static/img/logo_com_externe_semi_bold.png</span>
+			<span class="hidden" id="lien-logo-responsive">/static/img/logo-insee-header.png</span>
+		</a>
+	
+
+		
+		<div class="hamburger">
+			<a href="#" id="afficher-menu" tabindex="-1">
+				<span class="hamburger-menu">
+					<br/>
+					<span data-i18n="header.responsive.menu-hamburger" class="style">Menu</span>
+				</span>
+			</a>
+			
+				
+				
+					<a id="lien-changement-langue-responsive" href="/langue/en" lang="en">English</a>
+				
+			
+		</div>
+	
+		
+		<div id="recherche-header" class="recherche-header recherche">
+			<div id="liens-acces">
+				<ul class="liste-lien-acces">
+					
+						<li class="lien-evitement"><a data-i18n="header.recherche.menu" href="#menu">Menu</a></li>	
+						<li class="lien-evitement"><a data-i18n="header.recherche.contenu" href="#contenu">Contenu</a></li>
+						<li><a href="https://blog.insee.fr/" target="_blank">Blog</a></li>
+						<li><a data-i18n="header.recherche.espace-presse" href="
+
+
+/fr/information/2008400
+">Espace presse</a></li>
+						<li><a data-i18n="header.recherche.aide-du-haut" href="
+
+
+/fr/information/2411108
+">Aide</a></li>
+						
+							<li><a href="
+
+
+/fr/information/5894637
+" title="Accès sourds et malentendants" ><img id="sourds-malendants" alt="Accès sourds et malentendants" src="/static/img/pictooreille.svg" /></a></li>
+ 						
+ 						
+							
+							
+								<li><a id="lien-changement-langue" href="/langue/en" lang="en">English</a></li>
+							
+						
+				</ul>
+			</div>
+			<div id="searchbar-header" class="searchbar-header" role="search">
+				<input data-i18n="[placeholder]header.recherche.barre-recherche-placeholder;[title]header.recherche.barre-recherche-title" type="search" id="barre-recherche" role="textbox" autocomplete="off" tabindex="0" title="Rechercher sur le site" placeholder="Rechercher sur le site" aria-label="Rechercher sur le site"/>
+				<button data-i18n="[title]header.recherche.loupe-title" id="bouton-recherche" class="searchbar-icon" tabindex="0" role="button" title="rechercher"></button>
+				<span id="start-terms" class="hidden"></span>
+			</div>
+		</div>
+	
+</div>
+	<!-- Attention : les commentaires en fin de ligne ont un rôle important ! -->
+	<nav id="menu" role="navigation" aria-hidden="false" >
+		<ul class="menu">
+			<li><a class="lien maison" href="
+
+
+/fr/accueil
+" title="accueil" ></a></li><!--
+			--><li><a data-i18n="[html]menu.statistiques.titre" class="lien" href="
+
+
+/fr/statistiques
+" >Statistiques et études</a>
+				<div class="menu-deroulant">
+					<div data-i18n="[html]menu.statistiques.en-tete" class="menu-deroulant-en-tete">
+						Cherchez vos statistiques par&hellip;
+					</div>
+					<ul>
+						<li>
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.themes" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=1
+">Thèmes</a>
+							<ul>
+								<li><a data-i18n="menu.statistiques.economie" class="lien" href="
+
+
+/fr/statistiques?theme=27
+">Économie - conjoncture - comptes nationaux</a></li>
+								<li><a data-i18n="menu.statistiques.demographie" class="lien" href="
+
+
+/fr/statistiques?theme=0
+">Démographie</a></li>
+								<li><a data-i18n="menu.statistiques.entreprises" class="lien" href="
+
+
+/fr/statistiques?theme=37
+">Entreprises</a></li>
+								<li><a data-i18n="[html]menu.statistiques.plus-de-themes" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=1
+">Plus de thèmes&hellip;</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.niveau-geographique" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=3
+">Niveaux géographiques</a>
+							<ul>
+								<li><a class="lien" href="
+
+
+/fr/statistiques?debut=0&geo=FRANCE-1&idfacette=3
+">France</a></li>
+								<li><a data-i18n="menu.statistiques.comparaisons-reg-dep" class="lien" href="
+
+
+/fr/statistiques?debut=0&geo=COMPRD-1&idfacette=3
+">Toutes les régions ou tous les départements</a></li>
+								<li><a data-i18n="menu.statistiques.toutes-communes" class="lien" href="
+
+
+/fr/statistiques?debut=0&geo=TOUTES_COMMUNE-1
+">Toutes les communes</a></li>
+								<li><a data-i18n="[html]menu.statistiques.plus-de-niveau-geographique" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=3
+">Plus de niveaux géographiques&hellip;</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.categorie-produit" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=4
+">Catégories</a>
+							<ul>
+								<li><a data-i18n="menu.statistiques.donnees" class="lien" href="
+
+
+/fr/statistiques?categorie=1
+">Données</a></li>
+								<li><a data-i18n="menu.statistiques.publications" class="lien" href="
+
+
+/fr/statistiques?categorie=2
+">Publications</a></li>
+								<li><a data-i18n="[html]menu.statistiques.plus-de-categories" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=4
+">Plus de catégories&hellip;</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.collections" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=5
+">Collections</a>
+							<ul>
+								<li><a class="lien" href="
+
+
+/fr/statistiques?collection=116
+">Insee Première</a></li>
+								<li><a class="lien" href="
+
+
+/fr/statistiques?collection=119
+">Notes et points de conjoncture</a></li>
+								<li><a data-i18n="[html]menu.statistiques.plus-de-collections" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=5
+">Plus de collections&hellip;</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</li><!--
+			--><li><a class="deroulement" href="#"></a><a class="lien" href="/fr/information/2016815">Définitions, méthodes et qualité</a><div class="menu-deroulant"><ul><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2410967">Définitions</a><ul><li><a class="lien" href="/fr/metadonnees/definitions">Toutes les définitions des concepts</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2407637">Sources statistiques et indicateurs</a><ul><li><a class="lien" href="/fr/metadonnees/sources">Liste des sources statistiques</a></li><li><a class="lien" href="/fr/metadonnees/indicateurs">Liste des indicateurs</a></li><li><a class="lien" href="/fr/information/2383410">Documentation complémentaire sur le recensement</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/4138839">La qualité dans le Service statistique public (SSP)</a><ul><li><a class="lien" href="/fr/information/4137822">Le cadre de référence</a></li><li><a class="lien" href="/fr/information/5357958">La troisième revue européenne par les pairs en 2021</a></li><li><a class="lien" href="/fr/information/4137865">La gouvernance</a></li><li><a class="lien" href="/fr/information/4137808">Les compétences</a></li><li><a class="lien" href="/fr/information/4138430">Les actions et démarches qualité dans une approche processus</a></li><li><a class="lien" href="/fr/information/4138814">Les engagements européens</a></li><li><a class="lien" href="/fr/information/4138411">Les besoins des utilisateurs</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2016811">Nomenclatures</a><ul><li><a class="lien" href="/fr/information/2406147">Nomenclature d’activités française</a></li><li><a class="lien" href="/fr/information/2493969">Nomenclature agrégée - NA, 2008</a></li><li><a class="lien" href="/fr/information/2493496">Classification des produits française</a></li><li><a class="lien" href="/fr/information/2493507">Classification des fonctions de consommation des ménages</a></li><li><a class="lien" href="/fr/information/2028129">Catégories juridiques</a></li><li><a class="lien" href="/fr/information/2406153">Nomenclatures des professions et catégories socioprofessionnelles</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2016807">Géographie administrative et d'étude</a><ul><li><a class="lien" href="/fr/recherche/recherche-geographique">Recherche sur une zone géographique</a></li><li><a class="lien" href="/fr/metadonnees/historique-commune">Historique des communes</a></li><li><a class="lien" href="/fr/information/2115000">Téléchargement</a></li><li><a class="lien" href="/fr/information/2549968">Communes nouvelles</a></li><li><a class="lien" href="/fr/information/2028040">Codification des collectivités d'outre-mer (COM)</a></li><li><a class="lien" href="/fr/information/2028273">Codification des pays et territoires étrangers</a></li><li><a class="lien" href="/fr/information/3528272">Collectivités territoriales à statut particulier</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2022002">Modèles, méthodes et outils statistiques</a><ul><li><a class="lien" href="/fr/information/2021959">Les modèles statistiques</a></li><li><a class="lien" href="/fr/information/2021908">Les outils statistiques</a></li><li><a class="lien" href="/fr/information/2414816">Méthodologie statistique</a></li></ul></li><li><a class="lien titre-categorie" href="/fr/information/3622502">Courrier des statistiques</a><ul></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2410988">Open Data, données RDF et espace XML</a><ul><li><a class="lien" href="/fr/information/2028043">Diffusion des bases de données</a></li><li><a class="lien" href="/fr/information/2410909">Utilisation des formats de diffusion</a></li><li><a class="lien" href="https://api.insee.fr/catalogue/">Catalogue des API de l'Insee</a></li></ul></li></ul></div></li><li><a class="deroulement" href="#"></a><a class="lien" href="/fr/information/1302181">Services</a><div class="menu-deroulant"><ul><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302157">Réviser une pension, un loyer, bail ou contrat</a><ul><li><a class="lien" href="/fr/information/1300608">Réviser une pension alimentaire</a></li><li><a class="lien" href="/fr/information/1300612">Réviser un loyer d'habitation</a></li><li><a class="lien" href="/fr/information/1300602">Réviser un bail commercial ou professionnel</a></li><li><a class="lien" href="/fr/information/1300606">Indexer un contrat</a></li><li><a class="lien" href="/fr/information/2417794">Convertisseur franc-euro</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2411675">Consulter les indices et séries chronologiques</a><ul><li><a class="lien" href="/fr/information/2860814">Recherche d'indices et de séries chronologiques</a></li><li><a class="lien" href="/fr/information/2862759">Utilisation du service web SDMX</a></li><li><a class="lien" href="/fr/information/2862863">Tables de passage</a></li><li><a class="lien" href="/fr/information/2862832">Historique des actualités</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302173">Services Sirene et LEI</a><ul><li><a class="lien" href="/fr/information/1401387">S'informer sur les démarches</a></li><li><a class="lien" href="/fr/information/1401385">Accéder aux services en ligne</a></li><li><a class="lien" href="/fr/information/3591226">Consulter et télécharger la base  Sirene</a></li><li><a class="lien" href="/fr/information/1401383">Outil d'aide à la création d'entreprise (Odil)</a></li></ul></li><li><a class="lien titre-categorie" href="/fr/information/2021852">Découvrir, apprendre</a><ul></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302175">Répondre à une enquête de l'Insee</a><ul><li><a class="lien" href="/fr/information/2387311">Enquêtes auprès des particuliers</a></li><li><a class="lien" href="/fr/information/1401986">Enquêtes auprès des entreprises</a></li><li><a class="lien" href="/fr/information/2008477">Faux enquêteurs, fraude, malveillance</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302152">Consulter les agendas de diffusion</a><ul><li><a class="lien" href="/fr/information/1405540">Agenda des indicateurs</a></li><li><a class="lien" href="/fr/information/2416834">Agenda des publications</a></li><li><a class="lien" href="/fr/information/4162695">Publications les plus récentes</a></li><li><a class="lien" href="/fr/information/2544197">Évènements annoncés à la Une du site</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302179">Gérer les répertoires des personnes physiques</a><ul><li><a class="lien" href="/fr/information/1303477">Recueil des données d'état civil</a></li><li><a class="lien" href="/fr/information/3539086">Le Répertoire électoral unique</a></li><li><a class="lien" href="/fr/information/1303515">Dématérialisation des échanges de données</a></li><li><a class="lien" href="/fr/information/4470857">Nombre de décès quotidiens par département</a></li><li><a class="lien" href="/fr/information/4190491">Fichiers des personnes décédées depuis 1970</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302154">Bibliothèque de l’Insee Alain Desrosières</a><ul><li><a class="lien" href="/fr/information/1303573">Portail documentaire et catalogue</a></li><li><a class="lien" href="/fr/information/1303569">La Bibliothèque numérique de la statistique publique</a></li><li><a class="lien" href="/fr/information/2381317">Contacter la bibliothèque</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302171">Commander une prestation, acheter une publication</a><ul><li><a class="lien" href="/fr/information/1303438">Tableaux et produits statistiques à façon</a></li><li><a class="lien" href="/fr/information/2537715">Acheter nos publications</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302177">Nous suivre</a><ul><li><a class="lien" href="/fr/information/1405553">Lettres d'information</a></li><li><a class="lien" href="/fr/information/1405555">Abonnements aux lettres d'information et aux avis de parution</a></li><li><a class="lien" href="/fr/information/2381941">Abonnement aux flux RSS</a></li><li><a class="lien" href="/fr/information/3127332">L'Insee sur les médias sociaux</a></li><li><a class="lien" href="/fr/information/5407494">Insee Mobile</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2411108">Aide</a><ul><li><a class="lien" href="/fr/information/1302169">Réponses à vos questions</a></li><li><a class="lien" href="/fr/information/2901047">Aide à la navigation</a></li><li><a class="lien" href="/fr/information/5894637">L’Insee est accessible aux personnes malentendantes ou sourdes avec Acceo</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2008400">Espace presse</a><ul><li><a class="lien" href="/fr/information/5234985">Événements presse</a></li><li><a class="lien" href="/fr/information/5235017">Calendrier des publications</a></li><li><a class="lien" href="/fr/information/2117832?debut=0&amp;region=FRANCE1&amp;familleId=1010&amp;facetteReg=false">Communiqués de presse nationaux</a></li><li><a class="lien" href="/fr/information/2117832?debut=0&amp;region=REG84+REG27+REG53+REG24+REG94+REG44+REG01+REG32+REG11+REG03+REG76+REG52+REG75+REG93+REG06+REG28+REG02+REG04">Communiqués de presse régionaux</a></li></ul></li></ul></div></li><li><a class="deroulement" href="#"></a><a class="lien" href="/fr/information/1302230">L'Insee et la statistique publique</a><div class="menu-deroulant"><ul><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302198">L'Insee</a><ul><li><a class="lien" href="/fr/information/1300620">Connaître l'Insee</a></li><li><a class="lien" href="/fr/information/1300628">Travailler à l'Insee</a></li><li><a class="lien" href="/fr/information/1892983">Colloques, séminaires et salons</a></li><li><a class="lien" href="/fr/information/1300622">Un peu d'histoire</a></li><li><a class="lien" href="/fr/information/4130132">Rapports d'activité</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302194">Les activités de l'Insee</a><ul><li><a class="lien" href="/fr/information/1303532">Établir des diagnostics conjoncturels</a></li><li><a class="lien" href="/fr/information/1303536">Connaître les entreprises</a></li><li><a class="lien" href="/fr/information/1303538">Observer l'évolution de la société</a></li><li><a class="lien" href="/fr/information/1303540">Réaliser le recensement de la population</a></li><li><a class="lien" href="/fr/information/1303542">Décrire et analyser les régions et les territoires</a></li><li><a class="lien" href="/fr/information/1303544">Gérer des grands répertoires</a></li><li><a class="lien" href="/fr/information/1303546">Diffuser ses statistiques et ses études</a></li><li><a class="lien" href="/fr/information/1303548">Perfectionner ses méthodes et évaluer la qualité</a></li><li><a class="lien" href="/fr/information/4246608">Contribuer à la construction de la statistique européenne et internationale</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302208">La statistique publique</a><ul><li><a class="lien" href="/fr/information/1300616">Cadre juridique et institutionnel</a></li><li><a class="lien" href="/fr/information/1302192">Le service statistique public</a></li><li><a class="lien" href="/fr/information/1300624">Secret statistique</a></li><li><a class="lien" href="/fr/information/3719162">Protection des données personnelles</a></li><li><a class="lien" href="/fr/information/1300614">Accès aux données publiques</a></li><li><a class="lien" href="/fr/information/5209792">Accès aux documents administratifs</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302196">La construction de la statistique européenne</a><ul><li><a class="lien" href="/fr/information/4246567">Les producteurs de statistiques européennes en France</a></li><li><a class="lien" href="/fr/information/2046339">Textes juridiques de la gouvernance statistique européenne</a></li><li><a class="lien" href="/fr/information/4246551">Les règlements cadres et sectoriels</a></li></ul></li><li><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/4248413">Mesure de la qualité de service</a><ul><li><a class="lien" href="/fr/information/4248405">Les indicateurs de qualité du programme Transparence</a></li><li><a class="lien" href="/fr/information/2129030">Résultats des enquêtes de satisfaction</a></li></ul></li><li><a class="lien titre-categorie" href="/fr/information/5413276">Services publics+ : un service public plus proche, plus simple, plus efficace</a><ul></ul></li></ul></div></li>
+		</ul>
+	</nav>
+</div>
+<div class="clear"></div>
+	</header>	
+    
+	<main id="contenu" class="main" role="main">
+		<nav class="breadcrum">
+   <div class="container">
+      <ol class="fil-ariane">
+         <li><a data-i18n="breadcrum.accueil" href="/fr/accueil">Accueil</a></li>
+         <li><a data-i18n="breadcrum.statistiques" href="/fr/statistiques">Statistiques et études</a></li>
+         <li>Populations légales&nbsp;2018</li>
+      </ol>
+   </div>
+</nav>
+<section>
+   <div class="titre-page publication   ">
+      <div class="titre">
+         <h1 class="titre-principal                                      "><span class="titre-titre">Populations légales&nbsp;2018</span><span class="sous-titre div-in-h test">Recensement de la population Régions,&nbsp;départements, arrondissements, cantons et&nbsp;communes</span></h1>
+         <p class="auteurs hidden-template-impression"></p>
+         <div class="chapeau"></div>
+      </div>
+      <div class="details hidden-template-impression">
+         <div>
+            <div class="categorie">Chiffres détaillés</div>
+            <div class="famille-numero"></div>
+            <div class="date-diffusion hidden-impression-information-rapide"><span id="libelle-details" class="hidden-template-impression"><span data-i18n="[html]produit.bandeau-bleu.paru-le">Paru le :
+                     </span></span><span id="libelle-details" class="impression-seulement hidden-impression-information-rapide"><span data-i18n="[html]produit.bandeau-bleu.paru-le-impression">Paru
+                     le </span></span>28/12/2020
+            </div>
+            <div class="lien-details"><a data-i18n="produit.bandeau-bleu.imprimer" href="#" class="bouton-imprimante">Imprimer</a></div>
+         </div>
+         <div class="donnees-telechargeables"></div>
+      </div>
+      <div class="auteurs hidden-impression-information-rapide impression-seulement"></div>
+      <div class="date-diffusion hidden-impression-information-rapide impression-seulement"><span> - Décembre 2020</span></div>
+   </div>
+   <div class="contenu element-sommaire   ">
+      <div class="bloc paragraphes description-generale-variables">
+         <p class="paragraphe   ">Les données de population au 1<sup>er</sup>&nbsp;janvier 2018 dans les limites territoriales des communes au&nbsp;1<sup>er</sup>&nbsp;janvier&nbsp;2020 sont officielles et authentifiées par le <a href="/fr/statistiques/fichier/4989761/joe_20201227_0313_0022.pdf" class="renvoi">décret n°2020-1706 du 24 décembre 2020</a> paru au <em>Journal officiel</em>.
+            		
+            		Ces populations entrent en vigueur au&nbsp;1<sup>er</sup>&nbsp;janvier&nbsp;2021.
+            		
+         </p>
+         <p class="paragraphe   ">Ces populations sont disponibles pour les différentes circonscriptions administratives
+            au 1<sup>er</sup>&nbsp;janvier 2020&nbsp;dans leurs limites territoriales à cette date&nbsp;:
+            		régions, départements, arrondissements, cantons et communes.
+         </p>
+         <p class="paragraphe   ">Ce produit vous permet d'accéder à la population des régions et départements et de
+            télécharger des fichiers départementaux contenant les populations légales de tous
+            les niveaux administratifs 
+            		d'un département.<br>
+            Vous pouvez également obtenir la population légale des communes <a href="/fr/statistiques/zones/5001880" class="renvoi">une à une</a>.<br>
+            		Enfin, vous pouvez visualiser ces données sur l'outil de <a href="https://statistiques-locales.insee.fr/#c=indicator&amp;i=pop_legales.popmun&amp;i2=pop_legales.evol_popmun&amp;s=2018&amp;s2=2018&amp;view=map1" class="renvoi lien-externe" data-i18n="[title]produit.contenu.lien-externe-title" title="Ouvrir dans un nouvel onglet" target="_blank">cartographie
+               		interactive</a>, à différentes échelles géographiques (intercommunalité,...).
+         </p>
+         <p class="paragraphe   ">Les résultats des recensements rénovés ne se comparent correctement entre eux que
+            sur des périodes espacées d’au moins 5&nbsp;ans. 
+            		Pour une période plus courte, il est vivement conseillé de ne pas comparer deux
+            recensements. 
+         </p>
+      </div>
+      <ul class="onglets" role="tablist">
+         <li data-i18n="[title]produit.contenu.onglet-title" title="Afficher l’onglet" class="onglet courant not-only" role="tab" aria-selected="true" aria-controls="consulter-sommaire"><strong><a href="#consulter-sommaire" data-i18n="produit.contenu.Présentation">Présentation</a></strong></li>
+         <li data-i18n="[title]produit.contenu.onglet-title" title="Afficher l’onglet" class="onglet" role="tab" aria-selected="true" aria-controls="documentation-sommaire"><a data-i18n="produit.contenu.Documentation" href="#documentation-sommaire">Documentation</a></li>
+      </ul>
+      <div class="onglets-clear"></div>
+      <div class="select-onglets"><label for="choix-onglet-publication"><span class="hidden-accessibilite" data-i18n="choix-onglet.publication">Consultation de la publication ou de la documentation qui lui est
+               associée</span></label><select id="choix-onglet-publication" data-i18n="[title]choix-onglet.publication" title="Consultation de la publication ou de la documentation qui lui est associée">
+            <option data-i18n="produit.contenu.Consulter" value="consulter-sommaire" selected>Téléchargement</option>
+            <option data-i18n="produit.contenu.Documentation" value="documentation-sommaire">Documentation</option></select></div>
+      <div id="consulter-sommaire" class="panneau publication produit-sommaire clearfix courant" tabindex="0">
+         <section class="sommaire-gauche no-print">
+            <div class="container">
+               <div class="corps-publication"></div>
+               <div data-i18n="produit.sommaire.titre" class="titre-sommaire titre">Sommaire</div>
+               <nav class="sommaire-container" data-produit="4989753"><span id="isSommaireSeriePhare" class="hidden">false</span><ul class="sommaire">
+                     <li class="">
+                        <div class="titre-entree expanded" tabindex="0">
+                           <h2>Tableaux de synthèse</h2>
+                        </div>
+                        <ul class="sommaire">
+                           <li class="lien-produit   " data-feuille="4989728"><a href="/fr/statistiques/4989728?sommaire=4989761" data-i18n="">Populations légales des régions</a></li>
+                           <li class="lien-produit   " data-feuille="4989753"><a href="/fr/statistiques/4989753?sommaire=4989761" data-i18n="">Populations légales des départements</a></li>
+                           <li class="lien-produit   " data-feuille="4989739"><a href="/fr/statistiques/4989739?sommaire=4989761" data-i18n="">Populations légales des collectivités d'outre-mer</a></li>
+                        </ul>
+                     </li>
+                     <li class="">
+                        <div class="titre-entree expanded" tabindex="0">
+                           <h2>Téléchargements</h2>
+                        </div>
+                        <ul class="sommaire">
+                           <li class="lien-produit   " data-feuille="4989724"><a href="/fr/statistiques/4989724?sommaire=4989761" data-i18n="">Fichier d'ensemble (France hors Mayotte)</a></li>
+                           <li class="lien-produit   " data-feuille="4989704"><a href="/fr/statistiques/4989704?sommaire=4989761" data-i18n="">Fichiers par départements</a></li>
+                           <li class="lien-produit   " data-feuille="4989710"><a href="/fr/statistiques/4989710?sommaire=4989761" data-i18n="">Fichiers par collectivités d'outre-mer</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </section>
+         <div class="ouverture-sommaire hidden"><button data-i18n="produit.responsive.sommaire;[title]produit.responsive.sommaire-title" title="Passer à la vue sommaire et contenu">SOMMAIRE</button></div>
+         <div class="fermeture">
+            <div class="fermeture-gauche"><button data-i18n="[title]produit.responsive.contenu-seul-title" class="icon-flecheArr" title="Passer à la vue du contenu seul"><span data-i18n="produit.responsive.contenu-seul-title" class="hidden-accessibilite"></span></button></div>
+            <div class="fermeture-droite"><button data-i18n="[title]produit.responsive.sommaire-seul-title" class="icon-flecheAv" title="Passer à la vue du sommaire seul"><span data-i18n="produit.responsive.sommaire-seul-title" class="hidden-accessibilite"></span></button></div>
+         </div>
+         <div class="ouverture-contenu hidden"><button data-i18n="produit.responsive.contenu;[title]produit.responsive.contenu-title" title="Passer à la vue sommaire et contenu">CONTENU</button></div>
+         <section class="sommaire-droite">
+            <div class="container   ">
+               <div class="titre-sommaire publication   ">
+                  <div class="titre">
+                     <h1 class="titre-principal">Populations légales des&nbsp;départements en&nbsp;2018<span class="sous-titre div-in-h">Recensement de la population</span></h1>
+                     <p class="auteurs"></p>
+                     <div class="chapeau"></div>
+                  </div>
+                  <div class="titre-sommaire publication">
+                     <div class="details clearfix">
+                        <div class="details-gauche contenu-mixte">
+                           <p class="categorie">Chiffres détaillés</p>
+                           <p class="famille-numero"></p>
+                           <p class="date-diffusion"><span id="libelle-details"><span data-i18n="[html]produit.bandeau-bleu.paru-le">Paru le&nbsp;: </span></span>28/12/2020
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="contenu">
+                  <div id="consulter" class="courant publication" tabindex="0">
+                     <div class="corps-publication">
+                        <div class="bloc paragraphes ">
+                           <p class="paragraphe   ">Les données de population au 1<sup>er</sup>&nbsp;janvier&nbsp;2018 dans les limites territoriales des communes au 1<sup>er</sup>&nbsp;janvier&nbsp;2020 sont officielles et authentifiées par décret n°2020-1706 paru au <em>Journal officiel</em>.
+                              				
+                           </p>
+                           <p class="paragraphe   ">
+                              <strong>Les populations légales millésimées 2018 entrent en vigueur le 1<sup>er</sup>&nbsp;janvier 2021</strong>. 
+                              					Elles ont pour date de référence statistique le 1<sup>er</sup>&nbsp;janvier&nbsp;2018.
+                           </p>
+                        </div>
+                        <div id="figure2" class="bloc figure" data-id-graph-parent="">
+                           <div class="onglets-clear"></div><span class="ancre sans-onglet" id="ancre-figure2"></span><figure id="tableau-figure2" tabindex="0" class="panneau courant">
+                              <h3 class="titre-figure titreGraphiqueImpression"><span class="hidden">tableau </span>Populations légales des départements en vigueur au 1<sup>er</sup> janvier 2021
+                              </h3>
+                              <div class="unite">en habitant</div>
+                              <div class="tableau">
+                                 <table id="produit-tableau-figure2" class="tableau-produit" style="">
+                                    <caption>Populations légales des départements en vigueur au 1<sup>er</sup> janvier 2021 (en habitant)
+                                    </caption>
+                                    <thead>
+                                       <tr class="">
+                                          <th class="" scope="col">Code département</th>
+                                          <th class="" scope="col">Nom du département</th>
+                                          <th class="" scope="col">Population municipale</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">01</th>
+                                          <td class="texte ">Ain</td>
+                                          <td class="nombre ">647&nbsp;634</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">02</th>
+                                          <td class="texte ">Aisne</td>
+                                          <td class="nombre ">533&nbsp;316</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">03</th>
+                                          <td class="texte ">Allier</td>
+                                          <td class="nombre ">337&nbsp;171</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">04</th>
+                                          <td class="texte ">Alpes-de-Haute-Provence</td>
+                                          <td class="nombre ">164&nbsp;068</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">05</th>
+                                          <td class="texte ">Hautes-Alpes</td>
+                                          <td class="nombre ">140&nbsp;698</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">06</th>
+                                          <td class="texte ">Alpes-Maritimes</td>
+                                          <td class="nombre ">1&nbsp;086&nbsp;219</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">07</th>
+                                          <td class="texte ">Ardèche</td>
+                                          <td class="nombre ">326&nbsp;606</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">08</th>
+                                          <td class="texte ">Ardennes</td>
+                                          <td class="nombre ">271&nbsp;845</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">09</th>
+                                          <td class="texte ">Ariège</td>
+                                          <td class="nombre ">153&nbsp;066</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">10</th>
+                                          <td class="texte ">Aube</td>
+                                          <td class="nombre ">310&nbsp;020</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">11</th>
+                                          <td class="texte ">Aude</td>
+                                          <td class="nombre ">372&nbsp;806</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">12</th>
+                                          <td class="texte ">Aveyron</td>
+                                          <td class="nombre ">279&nbsp;274</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">13</th>
+                                          <td class="texte ">Bouches-du-Rhône</td>
+                                          <td class="nombre ">2&nbsp;034&nbsp;357</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">14</th>
+                                          <td class="texte ">Calvados</td>
+                                          <td class="nombre ">694&nbsp;056</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">15</th>
+                                          <td class="texte ">Cantal</td>
+                                          <td class="nombre ">144&nbsp;765</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">16</th>
+                                          <td class="texte ">Charente</td>
+                                          <td class="nombre ">351&nbsp;778</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">17</th>
+                                          <td class="texte ">Charente-Maritime</td>
+                                          <td class="nombre ">646&nbsp;932</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">18</th>
+                                          <td class="texte ">Cher</td>
+                                          <td class="nombre ">303&nbsp;408</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">19</th>
+                                          <td class="texte ">Corrèze</td>
+                                          <td class="nombre ">240&nbsp;583</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">2A</th>
+                                          <td class="texte ">Corse-du-Sud</td>
+                                          <td class="nombre ">157&nbsp;853</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">2B</th>
+                                          <td class="texte ">Haute-Corse</td>
+                                          <td class="nombre ">180&nbsp;701</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">21</th>
+                                          <td class="texte ">Côte-d'Or</td>
+                                          <td class="nombre ">533&nbsp;220</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">22</th>
+                                          <td class="texte ">Côtes-d'Armor</td>
+                                          <td class="nombre ">599&nbsp;584</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">23</th>
+                                          <td class="texte ">Creuse</td>
+                                          <td class="nombre ">117&nbsp;503</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">24</th>
+                                          <td class="texte ">Dordogne</td>
+                                          <td class="nombre ">413&nbsp;418</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">25</th>
+                                          <td class="texte ">Doubs</td>
+                                          <td class="nombre ">541&nbsp;454</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">26</th>
+                                          <td class="texte ">Drôme</td>
+                                          <td class="nombre ">514&nbsp;732</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">27</th>
+                                          <td class="texte ">Eure</td>
+                                          <td class="nombre ">599&nbsp;962</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">28</th>
+                                          <td class="texte ">Eure-et-Loir</td>
+                                          <td class="nombre ">431&nbsp;997</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">29</th>
+                                          <td class="texte ">Finistère</td>
+                                          <td class="nombre ">911&nbsp;735</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">30</th>
+                                          <td class="texte ">Gard</td>
+                                          <td class="nombre ">745&nbsp;458</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">31</th>
+                                          <td class="texte ">Haute-Garonne</td>
+                                          <td class="nombre ">1&nbsp;380&nbsp;672</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">32</th>
+                                          <td class="texte ">Gers</td>
+                                          <td class="nombre ">191&nbsp;283</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">33</th>
+                                          <td class="texte ">Gironde</td>
+                                          <td class="nombre ">1&nbsp;601&nbsp;845</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">34</th>
+                                          <td class="texte ">Hérault</td>
+                                          <td class="nombre ">1&nbsp;159&nbsp;220</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">35</th>
+                                          <td class="texte ">Ille-et-Vilaine</td>
+                                          <td class="nombre ">1&nbsp;069&nbsp;228</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">36</th>
+                                          <td class="texte ">Indre</td>
+                                          <td class="nombre ">220&nbsp;595</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">37</th>
+                                          <td class="texte ">Indre-et-Loire</td>
+                                          <td class="nombre ">607&nbsp;760</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">38</th>
+                                          <td class="texte ">Isère</td>
+                                          <td class="nombre ">1&nbsp;263&nbsp;563</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">39</th>
+                                          <td class="texte ">Jura</td>
+                                          <td class="nombre ">259&nbsp;746</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">40</th>
+                                          <td class="texte ">Landes</td>
+                                          <td class="nombre ">410&nbsp;355</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">41</th>
+                                          <td class="texte ">Loir-et-Cher</td>
+                                          <td class="nombre ">330&nbsp;248</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">42</th>
+                                          <td class="texte ">Loire</td>
+                                          <td class="nombre ">763&nbsp;441</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">43</th>
+                                          <td class="texte ">Haute-Loire</td>
+                                          <td class="nombre ">227&nbsp;552</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">44</th>
+                                          <td class="texte ">Loire-Atlantique</td>
+                                          <td class="nombre ">1&nbsp;412&nbsp;502</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">45</th>
+                                          <td class="texte ">Loiret</td>
+                                          <td class="nombre ">678&nbsp;845</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">46</th>
+                                          <td class="texte ">Lot</td>
+                                          <td class="nombre ">173&nbsp;929</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">47</th>
+                                          <td class="texte ">Lot-et-Garonne</td>
+                                          <td class="nombre ">331&nbsp;970</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">48</th>
+                                          <td class="texte ">Lozère</td>
+                                          <td class="nombre ">76&nbsp;520</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">49</th>
+                                          <td class="texte ">Maine-et-Loire</td>
+                                          <td class="nombre ">815&nbsp;883</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">50</th>
+                                          <td class="texte ">Manche</td>
+                                          <td class="nombre ">495&nbsp;983</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">51</th>
+                                          <td class="texte ">Marne</td>
+                                          <td class="nombre ">567&nbsp;462</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">52</th>
+                                          <td class="texte ">Haute-Marne</td>
+                                          <td class="nombre ">174&nbsp;069</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">53</th>
+                                          <td class="texte ">Mayenne</td>
+                                          <td class="nombre ">307&nbsp;084</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">54</th>
+                                          <td class="texte ">Meurthe-et-Moselle</td>
+                                          <td class="nombre ">733&nbsp;469</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">55</th>
+                                          <td class="texte ">Meuse</td>
+                                          <td class="nombre ">185&nbsp;355</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">56</th>
+                                          <td class="texte ">Morbihan</td>
+                                          <td class="nombre ">754&nbsp;867</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">57</th>
+                                          <td class="texte ">Moselle</td>
+                                          <td class="nombre ">1&nbsp;043&nbsp;524</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">58</th>
+                                          <td class="texte ">Nièvre</td>
+                                          <td class="nombre ">205&nbsp;828</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">59</th>
+                                          <td class="texte ">Nord</td>
+                                          <td class="nombre ">2&nbsp;606&nbsp;234</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">60</th>
+                                          <td class="texte ">Oise</td>
+                                          <td class="nombre ">827&nbsp;153</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">61</th>
+                                          <td class="texte ">Orne</td>
+                                          <td class="nombre ">281&nbsp;593</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">62</th>
+                                          <td class="texte ">Pas-de-Calais</td>
+                                          <td class="nombre ">1&nbsp;466&nbsp;743</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">63</th>
+                                          <td class="texte ">Puy-de-Dôme</td>
+                                          <td class="nombre ">659&nbsp;048</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">64</th>
+                                          <td class="texte ">Pyrénées-Atlantiques</td>
+                                          <td class="nombre ">679&nbsp;810</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">65</th>
+                                          <td class="texte ">Hautes-Pyrénées</td>
+                                          <td class="nombre ">229&nbsp;191</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">66</th>
+                                          <td class="texte ">Pyrénées-Orientales</td>
+                                          <td class="nombre ">476&nbsp;357</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">67</th>
+                                          <td class="texte ">Bas-Rhin</td>
+                                          <td class="nombre ">1&nbsp;133&nbsp;552</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">68</th>
+                                          <td class="texte ">Haut-Rhin</td>
+                                          <td class="nombre ">764&nbsp;981</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">69</th>
+                                          <td class="texte ">Rhône</td>
+                                          <td class="nombre ">1&nbsp;859&nbsp;524</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">70</th>
+                                          <td class="texte ">Haute-Saône</td>
+                                          <td class="nombre ">236&nbsp;018</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">71</th>
+                                          <td class="texte ">Saône-et-Loire</td>
+                                          <td class="nombre ">552&nbsp;185</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">72</th>
+                                          <td class="texte ">Sarthe</td>
+                                          <td class="nombre ">565&nbsp;963</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">73</th>
+                                          <td class="texte ">Savoie</td>
+                                          <td class="nombre ">433&nbsp;724</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">74</th>
+                                          <td class="texte ">Haute-Savoie</td>
+                                          <td class="nombre ">816&nbsp;699</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">75</th>
+                                          <td class="texte ">Paris</td>
+                                          <td class="nombre ">2&nbsp;175&nbsp;601</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">76</th>
+                                          <td class="texte ">Seine-Maritime</td>
+                                          <td class="nombre ">1&nbsp;255&nbsp;883</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">77</th>
+                                          <td class="texte ">Seine-et-Marne</td>
+                                          <td class="nombre ">1&nbsp;412&nbsp;516</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">78</th>
+                                          <td class="texte ">Yvelines</td>
+                                          <td class="nombre ">1&nbsp;441&nbsp;398</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">79</th>
+                                          <td class="texte ">Deux-Sèvres</td>
+                                          <td class="nombre ">374&nbsp;799</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">80</th>
+                                          <td class="texte ">Somme</td>
+                                          <td class="nombre ">570&nbsp;662</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">81</th>
+                                          <td class="texte ">Tarn</td>
+                                          <td class="nombre ">388&nbsp;596</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">82</th>
+                                          <td class="texte ">Tarn-et-Garonne</td>
+                                          <td class="nombre ">259&nbsp;124</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">83</th>
+                                          <td class="texte ">Var</td>
+                                          <td class="nombre ">1&nbsp;067&nbsp;697</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">84</th>
+                                          <td class="texte ">Vaucluse</td>
+                                          <td class="nombre ">559&nbsp;793</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">85</th>
+                                          <td class="texte ">Vendée</td>
+                                          <td class="nombre ">679&nbsp;991</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">86</th>
+                                          <td class="texte ">Vienne</td>
+                                          <td class="nombre ">437&nbsp;586</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">87</th>
+                                          <td class="texte ">Haute-Vienne</td>
+                                          <td class="nombre ">373&nbsp;199</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">88</th>
+                                          <td class="texte ">Vosges</td>
+                                          <td class="nombre ">366&nbsp;112</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">89</th>
+                                          <td class="texte ">Yonne</td>
+                                          <td class="nombre ">337&nbsp;504</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">90</th>
+                                          <td class="texte ">Territoire de Belfort</td>
+                                          <td class="nombre ">141&nbsp;852</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">91</th>
+                                          <td class="texte ">Essonne</td>
+                                          <td class="nombre ">1&nbsp;296&nbsp;641</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">92</th>
+                                          <td class="texte ">Hauts-de-Seine</td>
+                                          <td class="nombre ">1&nbsp;619&nbsp;120</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">93</th>
+                                          <td class="texte ">Seine-Saint-Denis</td>
+                                          <td class="nombre ">1&nbsp;632&nbsp;677</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">94</th>
+                                          <td class="texte ">Val-de-Marne</td>
+                                          <td class="nombre ">1&nbsp;396&nbsp;913</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">95</th>
+                                          <td class="texte ">Val-d'Oise</td>
+                                          <td class="nombre ">1&nbsp;238&nbsp;581</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">971</th>
+                                          <td class="texte ">Guadeloupe</td>
+                                          <td class="nombre ">387&nbsp;629</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">972</th>
+                                          <td class="texte ">Martinique</td>
+                                          <td class="nombre ">368&nbsp;783</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">973</th>
+                                          <td class="texte ">Guyane</td>
+                                          <td class="nombre ">276&nbsp;128</td>
+                                       </tr>
+                                       <tr class="">
+                                          <th class="ligne " scope="row">974</th>
+                                          <td class="texte ">La Réunion</td>
+                                          <td class="nombre ">855&nbsp;961</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                              <figcaption>
+                                 <ul class="notes">
+                                    <li>Mise à jour : décembre 2020</li>
+                                    <li>Date de référence statistique : 1<sup>er</sup> janvier 2018
+                                    </li>
+                                    <li>Champ : France métropolitaine, départements d’outre-mer de la Guadeloupe, de la Guyane,
+                                       de la Martinique et de La Réunion, limites territoriales en vigueur au 1<sup>er</sup> janvier 2020
+                                    </li>
+                                    <li class="">
+                                       <em>Source : Insee, Recensement de la population 2018</em>
+                                       
+                                    </li>
+                                 </ul>
+                              </figcaption>
+                           </figure>
+                        </div>
+                        <div class="bloc paragraphes ">
+                           <p class="paragraphe   ">Mayotte procèdait juqu’en 2017, par dérogation (article 157), à des recensements généraux
+                              de la population tous les cinq ans. Le dernier recensement général à Mayotte a été
+                              réalisé en 2017. <br>
+                              <a class="renvoi" data-i18n="" href="/fr/statistiques/2120838">Accéder aux résultats du recensement de Mayotte</a>
+                              
+                           </p>
+                           <p class="paragraphe   ">Mayotte intègre désormais la méthode commune aux autres départements. Une première
+                              enquête de recensement a lieu en 2021. De nouvelles populations légales seront authentifiées
+                              une fois le premier rythme quinquennal achevé, soit fin 2025.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <section>
+                  <div class="module-transverse pour-en-savoir-plus   ">
+                     <div class="module-transverse-container">
+                        <h2 class="module-transverse-titre" data-i18n="produit.pour-en-savoir-plus.titre">Pour en savoir plus</h2>
+                        <div class="module-transverse-contenu">
+                           <p class="paragraphe   ">
+                              <a class="renvoi" data-i18n="" href="/fr/information/2409261">Documentation sur le recensement à Mayotte et dans les collectivités d'outre-mer</a>
+                              
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </section>
+      </div>
+      <div id="documentation-sommaire" class="panneau publication ">
+         <div class="documentation pour-comprendre">
+            <h2 data-i18n="produit.documentation.pour-comprendre" id="documents-pour-comprendre">Pour comprendre</h2>
+            <div class="document-pour-comprendre">
+               <h3 id="documents-pour-comprendre-titre-bloc-1" class="bloc">Les populations légales</h3>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">
+                     <strong>Un objectif majeur du recensement de la population</strong>
+                     
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">La loi du 27 février 2002 relative à la démocratie de proximité fixe comme premier
+                     objectif du recensement de la population la publication tous les ans des chiffres
+                     des populations légales : population municipale, population comptée à part et population
+                     totale. Ces chiffres sont calculés pour la France, toutes ses communes et circonscriptions
+                     administratives. La responsabilité du calcul des populations légales est confiée à
+                     l'Insee.
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">
+                     <strong>Des populations légales définies par le décret n° 2003-485 du 5 juin 2003</strong>
+                     
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">La population municipale comprend les personnes ayant leur résidence habituelle sur
+                     le territoire de la commune. Elle inclut les personnes sans abri ou résidant habituellement
+                     dans des habitations mobiles recensées sur le territoire de la commune ainsi que les
+                     détenus dans les établissements pénitentiaires de la commune. C'est la population
+                     statistique comparable à la population sans double compte des précédents recensements.
+                  </p>
+                  <p class="paragraphe   ">La population comptée à part comprend certaines personnes dont la résidence habituelle
+                     est dans une autre commune mais qui gardent un lien de résidence avec la commune.
+                     Elle comprend, par exemple, les élèves ou étudiants majeurs qui logent pour leurs
+                     études dans une autre commune mais dont la résidence familiale est située sur le territoire
+                     de la commune ou les personnes résidant dans une maison de retraite située dans une
+                     autre commune mais qui ont conservé une résidence familiale sur le territoire de la
+                     commune. Il est important de dénombrer à part de telles situations, d'abord pour clarifier
+                     quelle est véritablement la commune de résidence mais aussi pour ne pas produire des
+                     doubles comptes entre deux communes quand on additionne leurs populations.
+                  </p>
+                  <p class="paragraphe   ">La population totale est la somme de la population municipale et de la population
+                     comptée à part.
+                  </p>
+                  <p class="paragraphe   ">Près de 350 articles de lois ou de codes se réfèrent à la population de chaque circonscription
+                     administrative. Ils concernent l'organisation des communes comme notre vie quotidienne
+                     : les dotations de l'État aux communes, le nombre de conseillers municipaux, les conditions
+                     d'implantation des pharmacies, la constitution de communautés d'agglomération, les
+                     barèmes de certaines taxes (publicité, jeux, spectacles, débitants de boissons...).
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">
+                     <strong>Cinq années de collecte pour prendre en compte l'ensemble du territoire</strong>
+                     
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">La loi organise la collecte tournante d'informations du nouveau recensement de telle
+                     manière que la totalité du territoire de la France soit prise en compte au cours de
+                     cinq enquêtes de recensement successives. Cette collecte est réalisée en partenariat
+                     avec les communes. Dans les communes de 10&nbsp;000&nbsp;habitants ou plus, une enquête par
+                     sondage est effectuée, chaque année, sur 8 % des logements ; au bout de 5 ans, 40
+                     % des logements ont été enquêtés. Pour les communes de moins de 10 000 habitants,
+                     la collecte est exhaustive sur la commune ; chaque année, un cinquième des communes
+                     sont concernées et au bout de 5 ans la totalité de ces communes a été enquêtée. Toutes
+                     tailles de communes confondues, au bout de 5 ans, c'est 70 % des logements qui ont
+                     été concernés par une enquête de recensement.
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">
+                     <strong>Un nouveau décret d'authentification des populations légales chaque fin d'année</strong>
+                     
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">Depuis la fin 2008, les populations légales de toutes les collectivités territoriales
+                     et de toutes les circonscriptions administratives sont établies annuellement. La population
+                     doit être relative à la même année pour toutes les communes afin de préserver l'égalité
+                     de traitement entre elles. Fin 2008, les populations légales de chaque commune, qui
+                     prenaient effet au 1<sup>er</sup> janvier 2009, avaient été calculées par référence à l'année du milieu du cycle 2004-2008,
+                     c'est-à-dire l'année 2006. Fin 2009, les populations qui prennent effet au 1<sup>er</sup> janvier 2010 font référence à l'année du milieu du cycle 2005-2009, soit à l'année
+                     2007. Et ainsi de suite, en décalant d'un an chaque année.
+                  </p>
+                  <p class="paragraphe   ">Les textes qui font référence à la notion de population sont, si nécessaire, adaptés
+                     pour tenir compte de la publication chaque année des nouvelles populations. Cette
+                     adaptation est de la responsabilité des administrations en charge de ces textes.
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">
+                     <strong>Méthodes de calcul des populations légales</strong>
+                     
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">Dans les communes de 10 000 habitants ou plus, où les enquêtes de recensement ont
+                     lieu tous les ans par sondage, le principe du calcul consiste à faire la somme des
+                     observations des cinq dernières années, puis à en déduire la commune tout entière
+                     en se référant au nombre de logements du milieu de la période, connu par le répertoire
+                     d'immeubles localisés (Ril).
+                  </p>
+                  <p class="paragraphe   ">Dans les communes de moins de 10 000 habitants, l'Insee détermine les populations
+                     légales par extrapolation ou interpolation des résultats obtenus par l'enquête de
+                     recensement la plus récente. Ces calculs consistent, pour l'extrapolation, à prolonger
+                     des tendances observées en s'appuyant sur le nombre de logements fourni par la taxe
+                     d'habitation, et, pour l'interpolation, à établir les chiffres intermédiaires entre
+                     deux années dont on connaît les populations.
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">
+                     <strong>Populations légales dans les collectivités d'outre-mer et Mayotte</strong>
+                     
+                  </p>
+               </div>
+               <div class="bloc paragraphes ">
+                  <p class="paragraphe   ">Le recensement de la population des collectivités d'outre-mer (COM) relève, selon
+                     les cas, des articles 156 ou 157 du titre&nbsp;V de la loi n°&nbsp;2002-276 du 27&nbsp;février 2002.
+                     Les populations légales sont authentifiées par un décret publié au Journal Officiel,
+                     sous la responsabilité de l'Insee. 
+                  </p>
+                  <p class="paragraphe   ">Pour les COM de Saint-Barthélemy, Saint-Martin et Saint-Pierre-et-Miquelon, la collecte,
+                     le traitement et l'exploitation statistique sont réalisés dans le cadre général du
+                     recensement rénové (article&nbsp;156). Leurs populations légales sont actualisées chaque
+                     année. 
+                  </p>
+                  <p class="paragraphe   ">Les autres COM procèdent, par dérogation (article 157), à des recensements généraux
+                     de la population tous les cinq ans. L'exploitation statistique de ces recensements
+                     est de la responsabilité de l'institut de statistique local.
+                  </p>
+                  <p class="paragraphe   ">Mayotte procédait également jusqu’en 2017, par dérogation (article 157), à des recensements
+                     généraux de la population tous les cinq ans. Le dernier recensement général à Mayotte
+                     a été réalisé en 2017. Mayotte intègre désormais la méthode commune aux autres départements.
+                     Une première enquête de recensement a lieu en 2021. Des premiers résultats seront
+                     disponibles une fois le premier rythme quinquennal achevé, soit fin 2025.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="panneau publication" id="dictionnaire-sommaire"></div>
+   </div>
+</section>
+<section>
+   <div class="module-transverse pour-en-savoir-plus   ">
+      <div class="module-transverse-container">
+         <h2 class="module-transverse-titre" data-i18n="produit.pour-en-savoir-plus.titre" id="pesp">Pour en savoir plus</h2>
+         <div class="module-transverse-contenu">
+            <p class="paragraphe   ">
+               			<a href="/fr/statistiques/2119504" class="renvoi">Populations légales 2013</a>
+               		
+            </p>
+            <p class="paragraphe   ">
+               			<a href="/fr/statistiques/zones/5001880?debut=0" class="renvoi">Tous les résultats statistiques pour votre commune, département, région, intercommunalité,...</a>
+               		
+            </p>
+         </div>
+      </div>
+   </div>
+</section>
+	</main>
+	<footer role="contentinfo">
+		
+
+
+
+
+
+
+<div class="footer-mobile">
+	<a id="afficher-menu-footer-mobile">Menu</a>
+</div>
+<div class="footer">
+	<div class="container-bloc-1">
+		<div class="bloc-1" role="navigation">
+			
+			<div class="abonnement">
+				<h2 class="titre-footer" data-i18n="footer.abonnez-vous">Abonnez-vous</h2>
+				<div class="contenu-abonnement">
+					<div class="lettre"></div>
+					<a href="
+
+
+/fr/information/1405555
+" class="lien-footer avis-parution" data-i18n="footer.avis-parution">Avis de parution</a>
+				</div>
+			</div>
+			
+			<div class="reseaux-sociaux">
+				<h2 class="titre-footer" data-i18n="footer.reseaux-sociaux">Nous suivre</h2>
+				<div class="contenu-reseaux-sociaux">
+					<div class="cercle-twitter">
+						
+							
+							
+								<a href="https://twitter.com/InseeFr" data-i18n="[title]reseaux-sociaux.footer.lien-twitter" title="Twitter"><span class="icone-twitter"><span data-i18n="reseaux-sociaux.footer.lien-twitter" class="hidden-accessibilite"></span></span></a>
+							
+						
+					</div>
+					<div class="cercle-linkedin">
+						<a href="https://www.linkedin.com/company/insee" data-i18n="[title]reseaux-sociaux.footer.lien-linkedin" title="LinkedIn"><span class="icone-linkedin"><span data-i18n="reseaux-sociaux.footer.lien-linkedin" class="hidden-accessibilite"></span></span></a>
+					</div>
+					<div class="cercle-youtube">
+						<a href="https://www.youtube.com/channel/UChCCvJTbZEYsCXyfu27eQ6g" data-i18n="[title]reseaux-sociaux.footer.lien-youtube" title="Youtube"><span class="icone-youtube"><span data-i18n="reseaux-sociaux.footer.lien-youtube" class="hidden-accessibilite"></span></span></a>
+					</div>
+					<div class="cercle-dailymotion">
+						<a href="https://www.dailymotion.com/InseeFr" data-i18n="[title]reseaux-sociaux.footer.lien-dailymotion" title="Dailymotion"><span class="icone-dailymotion"><span data-i18n="reseaux-sociaux.footer.lien-dailymotion" class="hidden-accessibilite"></span></span></a>
+					</div>
+					<div class="cercle-blog">
+						<a href="https://blog.insee.fr/" data-i18n="[title]reseaux-sociaux.footer.lien-blog" title="Blog"><span class="icone-blog"><span data-i18n="reseaux-sociaux.footer.lienblog" class="hidden-accessibilite"></span></span></a>
+					</div>
+					<div class="cercle-rss">
+						<a href="
+
+
+/fr/information/2381941
+" data-i18n="[title]reseaux-sociaux.footer.lien-rss" title="Rss"><span class="icone-rss"><span data-i18n="reseaux-sociaux.footer.lien-rss" class="hidden-accessibilite"></span></span></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="contact-aide">
+				<h2 class="titre-footer" data-i18n="footer.contact">Contact</h2>
+				<div class="contenu-contact-aide">
+					
+						
+						
+							<a href="
+
+
+/fr/information/1302169
+" class="lien-footer" data-i18n="footer.nous-contacter">Nous contacter</a>
+						
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="container-bloc-2">
+		<div class="bloc-2"><ul>
+   <div class="colonne-1">
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1">
+            <a class="lien" href="/fr/statistiques" data-i18n="menu.statistiques.titre">Statistiques et études</a>
+         </div>
+      </li>
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1">
+            <a class="lien" href="/fr/information/2016815">Définitions, méthodes et qualité</a>
+         </div>
+         <ul>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2410967">Définitions</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2407637">Sources statistiques et indicateurs</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/4138839">La qualité dans le Service statistique public (SSP)</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2016811">Nomenclatures</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2016807">Géographie administrative et d'étude</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2022002">Modèles, méthodes et outils statistiques</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/3622502">Courrier des statistiques</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2410988">Open Data, données RDF et espace XML</a>
+               </div>
+            </li>
+         </ul>
+      </li>
+   </div>
+   <div class="colonne-2">
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1">
+            <a class="lien" href="/fr/information/1302181">Services</a>
+         </div>
+         <ul>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302157">Réviser une pension, un loyer, bail ou contrat</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2411675">Consulter les indices et séries chronologiques</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302173">Services Sirene et LEI</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2021852">Découvrir, apprendre</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302175">Répondre à une enquête de l'Insee</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302152">Consulter les agendas de diffusion</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302179">Gérer les répertoires des personnes physiques</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302154">Bibliothèque de l’Insee Alain Desrosières</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302171">Commander une prestation, acheter une publication</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302177">Nous suivre</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2411108">Aide</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/2008400">Espace presse</a>
+               </div>
+            </li>
+         </ul>
+      </li>
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1">
+            <a class="lien" href="/fr/information/1302230">L'Insee et la statistique publique</a>
+         </div>
+         <ul>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302198">L'Insee</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302194">Les activités de l'Insee</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302208">La statistique publique</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/1302196">La construction de la statistique européenne</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/4248413">Mesure de la qualité de service</a>
+               </div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2">
+                  <a class="lien titre-categorie" href="/fr/information/5413276">Services publics+ : un service public plus proche, plus simple, plus efficace</a>
+               </div>
+            </li>
+         </ul>
+      </li>
+   </div>
+</ul></div>
+	</div>
+	<div class="container-bloc-3" role="navigation">
+		<div class="bloc-3">
+			<ul class="images-footer"><li class="image-footer"><a class="lien-footer-image" href="http://ec.europa.eu/eurostat/web/european-statistical-system/overview?locale=fr"><img src="/image/footer/sse.png" alt="Système statistique européen"/></a></li><li class="image-footer"><a class="lien-footer-image" href="http://statapprendre.education.fr/insee"><img src="/image/footer/logo-statapprendre.jpg" alt="Apprendre avec les données de l'Insee"/></a></li><li class="image-footer"><a class="lien-footer-image" href="http://www.reseau-quetelet.cnrs.fr/spip/"><img src="/image/footer/logoquetelet-petit.png" alt="Réseau Quetelet"/></a></li><li class="image-footer"><a class="lien-footer-image" href="https://casd.eu/"><img src="/image/footer/logo-casd-bas-page.png" alt="Centre d'Accès Sécurisé Distant aux données (CASD)"/></a></li><li class="image-footer"><a class="lien-footer-image" href="http://www.data.gouv.fr/fr/"><img src="/image/footer/data-gouv.png" alt="site data.gouv"/></a></li></ul>
+		</div>
+	</div>
+	<div class="container-bloc-4" role="navigation">
+		<div class="bloc-4">
+			<ul class="liens-footer"><li class="lien-footer mentions"><a href="/fr/information/2008466">Mentions légales et crédits</a></li><li class="lien-footer cond-use-data"><a href="/fr/information/2381863">Conditions d'utilisation de nos données</a></li><li class="lien-footer accessibilite"><a href="/fr/information/2386135">Accessibilité : non conforme</a></li><li class="lien-footer "><a href="/fr/information/5894637">Accès sourds et malentendants</a></li><li class="lien-footer securite"><a href="/fr/information/2381939">Sécurité</a></li><li class="lien-footer "><a href="/fr/plan-du-site/">Plan du site</a></li></ul>
+		</div>
+	</div>
+</div>
+<a href="#" class="sticky-top"><span data-i18n="footer.sticky-top.texte" class="sticky-text">Haut de page</span></a>
+	</footer>
+	
+	<!-- script chat eptica -->
+	<script type="text/javascript" src="https://chat.reponse.insee.fr/essm/resources/self-widget/index.js"></script>
+</body>
+</html>
+
