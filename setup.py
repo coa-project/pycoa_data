@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """ 
 Project : PyCoA-CoaData
 Date :    january 2021
